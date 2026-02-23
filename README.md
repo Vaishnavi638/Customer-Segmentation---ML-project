@@ -12,13 +12,14 @@ Businesses often struggle to understand customer behavior and allocate marketing
 
 📁 **Dataset**
 
-Dataset: Online Retail II (2009–2011)
+Dataset: Online Retail II 
 Source: Kaggle
 Contains transactional data including InvoiceNo, CustomerID, Quantity, UnitPrice, and InvoiceDate.
 
 
 ⚙️** Methodology
 **
+
 1️⃣ Data Cleaning - 
 
 Removed missing CustomerID values
