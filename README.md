@@ -11,6 +11,7 @@ Businesses often struggle to understand customer behavior and allocate marketing
 
 
 📁 **Dataset**
+
 Dataset: Online Retail II (2009–2011)
 Source: Kaggle
 Contains transactional data including InvoiceNo, CustomerID, Quantity, UnitPrice, and InvoiceDate.
@@ -18,20 +19,24 @@ Contains transactional data including InvoiceNo, CustomerID, Quantity, UnitPrice
 
 ⚙️** Methodology
 **
-1️⃣ Data Cleaning
+1️⃣ Data Cleaning - 
+
 Removed missing CustomerID values
 Removed negative quantities and prices
 Created TotalAmount feature
 
-2️⃣ RFM Feature Engineering
+2️⃣ RFM Feature Engineering - 
+
 Recency – Days since last purchase
 Frequency – Number of unique purchases
 Monetary – Total spending
 
-3️⃣ Data Scaling
+3️⃣ Data Scaling-
+
 StandardScaler was applied before clustering.
 
-4️⃣ K-Means Clustering
+4️⃣ K-Means Clustering-
+
 Elbow Method used to determine optimal clusters (K = 4)
 Customers segmented into:
 Lost Customers
@@ -66,6 +71,7 @@ Power BI
 DAX
 
 **Business Value**
+
 This project demonstrates how machine learning outputs can be integrated with business intelligence tools to:
 Improve customer retention
 Optimize marketing budget
@@ -74,4 +80,5 @@ Support data-driven decision-making
 
 
 🚀** Conclusion**
+
 The project successfully segments customers using RFM-based clustering and transforms analytical insights into an interactive business dashboard. It highlights the practical application of unsupervised learning in solving real-world business problems.
